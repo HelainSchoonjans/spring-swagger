@@ -10,8 +10,13 @@ In Intellij, change the configuration as follows to use the right java version: 
 
 ## Swagger
 
-Go to http://localhost:8080/swagger-ui/index.html
+Go to http://localhost:8080/swagger-ui/index.html. You find a description of the Book API
 
 ## API Docs
 
 Go to http://localhost:8080/v3/api-docs
+
+## Findings:
+
+- Swagger documents out of the box
+- The Pageable parameter is awesome for conventional pagination and sorting.
