@@ -22,3 +22,4 @@ Go to http://localhost:8080/v3/api-docs
 
 - Swagger documents out of the box
 - The Pageable parameter is awesome for conventional pagination and sorting.
+- Documentation of annotations: https://github.com/swagger-api/swagger-core/wiki/Swagger-2.X---Annotations
