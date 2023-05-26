@@ -1,8 +1,13 @@
 package com.example.swagger.book;
 
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
+
 public class Book {
 
     private String name;
+    @NotBlank
+    @Size(min = 0, max = 30)
     private String isbn;
 
     public String getName() {
